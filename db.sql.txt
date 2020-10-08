@@ -1,0 +1,15 @@
+CREATE DATABASE IF NOT EXISTS curso_angular;
+
+use curso_angular;
+
+CREATE TABLE Productos(
+
+id int(255) auto_increment not null,
+nombre varchar(255) null,
+descripcion text null,
+precio varchar(255) null,
+imagen varchar(255) null,
+
+CONSTRAINT PK_Productos PRIMARY KEY(id)
+
+)ENGINE=InnoDb;
