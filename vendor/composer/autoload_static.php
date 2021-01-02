@@ -17,6 +17,7 @@ class ComposerStaticInitec65c5e82842bbcef8f87e39f1fe271a
     );
 
     public static $classMap = array (
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'PiramideUploader' => __DIR__ . '/../..' . '/piramide-uploader/PiramideUploader.php',
     );
 

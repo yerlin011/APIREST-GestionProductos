@@ -203,7 +203,7 @@ $app->post("/update-producto/:id",function($id) use($db,$app){
 
     }
 
-    echo var_dump($sql);
+  
 
     echo json_encode($result);
 });
